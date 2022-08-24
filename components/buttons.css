@@ -1,0 +1,39 @@
+.btn {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  transition: opacity 200ms, transform 200ms;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn--raised {
+  background-color: var(--primary-color);
+  color: white;
+  display: block;
+}
+
+.btn--link {
+  color: var(--primary-color);
+  padding: 15px 0;
+  letter-spacing: 0.3px;
+}
+
+.btn--block {
+  width: 100%;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  transform: translate(1px, 1px);
+}

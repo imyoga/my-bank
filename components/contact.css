@@ -1,0 +1,46 @@
+.contact {
+  all: unset;
+  box-sizing: border-box;
+  outline: revert;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 15px 10px;
+  transition: background-color 200ms;
+  background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608529/learnhtmlcss/my-bank/chevron-right.svg");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+.contact:first-of-type {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.contact:last-of-type {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.contact + .contact {
+  border-top: 1px solid rgb(20 20 20 / 10%);
+}
+
+.contact:hover {
+  background-color: rgb(20 20 20 / 10%);
+}
+.contact .details {
+  flex: 1;
+}
+
+.contact-name {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.contact-phone {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--light-text-color);
+  font-size: 14px;
+}

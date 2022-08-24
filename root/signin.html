@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="header">
+          <a href="onboarding.html" class="back"
+            ><span class="sr-only">Back</span></a
+          >
+          <h1 class="page-title">Sign in</h1>
+        </div>
+      </div>
+    </header>
+    <main id="layout-page-with-small-header" class="container">
+      <form action="dashboard.html">
+        <div class="form-line">
+          <div>
+            <label for="phone-number">Phone number</label>
+          </div>
+          <div class="input-fixed-icon">
+            <div class="input-fixed-left flag-us"></div>
+            <input
+              class="input"
+              type="text"
+              inputmode="tel"
+              id="phone-number"
+              placeholder="+1 900 800 70 60"
+            />
+          </div>
+        </div>
+        <div class="form-line">
+          <div>
+            <label for="password">Password</label>
+          </div>
+          <div class="input-with-icon">
+            <input
+              class="input"
+              type="password"
+              id="password"
+              placeholder="*******"
+            />
+            <button class="ax-button input-icon-right" type="button">
+              <img
+                width="24"
+                height="24"
+                src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608530/learnhtmlcss/my-bank/eye.svg"
+                alt="Toggle visibility"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="form-buttons">
+          <a
+            href="dashboard.html"
+            class="btn btn--block btn--link recover-password"
+            >Recover password</a
+          >
+          <input
+            type="submit"
+            value="Sign in"
+            class="btn btn--block btn--raised"
+          />
+        </div>
+      </form>
+    </main>
+    <script src="prototype-mode.js"></script>
+  </body>
+</html>

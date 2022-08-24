@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splash</title>
+    <style>
+      :root {
+        --primary-color: #008288;
+        --light-text-color: #545f7a;
+        --light-border-color: #dae1f2;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: system-ui;
+        margin: 0;
+      }
+      html {
+        background-color: var(--primary-color);
+      }
+
+      #splash {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 12px;
+        position: fixed;
+        bottom: 20px;
+        text-align: center;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="splash">
+        <a href="onboarding.html"
+          ><img
+            src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608532/learnhtmlcss/my-bank/logo.png"
+            width="250"
+            height="250"
+            alt="MyBank logo"
+        /></a>
+      </div>
+      <h1>World's Largest and Most Trusted Bank</h1>
+    </main>
+    <script src="prototype-mode.js"></script>
+  </body>
+</html>

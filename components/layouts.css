@@ -1,0 +1,32 @@
+#layout-page-with-small-header {
+  padding-top: 20px;
+}
+
+#layout-page-overlay {
+  background-color: white;
+  margin-top: -16px;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.layout-subtitle {
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+.layout-timestamp {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.layout-timestamp:first-of-type {
+  margin-top: 0;
+}
+
+.layout-subpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}

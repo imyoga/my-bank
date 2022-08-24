@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header id="highlighted-header" class="text-center">
+      <div id="header-profile-wrapper">
+        <img
+          src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608533/learnhtmlcss/my-bank/person-5.png"
+          width="80"
+          height="80"
+          alt="Sam Doe profile"
+        />
+        <h1>Sam Doe</h1>
+        <button class="ax-button" id="header-top-right">
+          <img
+            src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608529/learnhtmlcss/my-bank/cog.svg"
+            alt="Settings"
+          />
+        </button>
+      </div>
+    </header>
+    <main id="layout-page-overlay">
+      <div class="container">
+        <section>
+          <div class="layout-subpage">
+            <h2 class="title">Contacts</h2>
+            <a href="transactions.html" class="btn btn--link">View all</a>
+          </div>
+          <div class="contact">
+            <img
+              src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608533/learnhtmlcss/my-bank/person-2.png"
+              width="40"
+              height="40"
+              alt=""
+              class="avatar"
+            />
+            <div class="contact-details">
+              <p class="contact-name">Mark Roller</p>
+              <p class="contact-phone">+1 234 567 89 10</p>
+            </div>
+          </div>
+          <div class="contact">
+            <img
+              src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608531/learnhtmlcss/my-bank/person-1.png"
+              width="40"
+              height="40"
+              alt=""
+              class="avatar"
+            />
+            <div class="contact-details">
+              <p class="contact-name">Arianna Craig</p>
+              <p class="contact-phone">+1 244 567 89 10</p>
+            </div>
+          </div>
+          <div class="contact">
+            <img
+              src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608533/learnhtmlcss/my-bank/person-6.png"
+              width="40"
+              height="40"
+              alt=""
+              class="avatar"
+            />
+            <div class="entry-details">
+              <p class="contact-name">John Doe</p>
+              <p class="contact-phone">+1 134 567 89 10</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 class="title">Actions</h2>
+          <ul class="items">
+            <li>
+              <a href="#" class="item">
+                <img
+                  src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608533/learnhtmlcss/my-bank/users.svg"
+                  width="24"
+                  height="24"
+                  alt=""
+                  class="avatar"
+                />
+                <p class="item-name">To a contact</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item">
+                <img
+                  src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/card.svg"
+                  width="24"
+                  height="24"
+                  alt=""
+                  class="avatar"
+                />
+                <p class="item-name">To a bank card</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item">
+                <img
+                  src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608529/learnhtmlcss/my-bank/globe.svg"
+                  width="24"
+                  height="24"
+                  alt=""
+                  class="avatar"
+                />
+                <p class="item-name">To another country</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <div id="nav-spacer"></div>
+    <nav>
+      <a href="dashboard.html" aria-label="Home" class="nav-item">
+        <svg
+          width="25"
+          height="24"
+          viewBox="0 0 25 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3.5 9L12.5 2L21.5 9V20C21.5 20.5304 21.2893 21.0391 20.9142 21.4142C20.5391 21.7893 20.0304 22 19.5 22H5.5C4.96957 22 4.46086 21.7893 4.08579 21.4142C3.71071 21.0391 3.5 20.5304 3.5 20V9Z"
+            fill="white"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path d="M9.5 22V12H15.5V22" fill="white" />
+          <path
+            d="M9.5 22V12H15.5V22"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+      <a href="services.html" aria-label="Payments" class="nav-item">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 7L3 7"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M7 11L3 7L7 3"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M3 17H21"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M17 13L21 17L17 21"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+      <a href="transactions.html" aria-label="Transactions" class="nav-item">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12 6V12L16 14"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+      <a href="profile.html" aria-label="Profile" class="nav-item active">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+            stroke="var(--nav-icon-color)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </nav>
+    <script src="prototype-mode.js"></script>
+  </body>
+</html>

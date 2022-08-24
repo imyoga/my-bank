@@ -1,0 +1,15 @@
+#onboarding-layout {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+#onboarding-slider {
+  margin-top: 30px;
+}
+
+#onboarding-buttons {
+  align-self: end;
+}
